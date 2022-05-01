@@ -1,0 +1,218 @@
+:root {
+    --primary-color: teal;
+    --secondary-color: rgb(24, 88, 116);
+    --tertiary-color: silver;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    width: 20%;
+    margin: 0 10px;
+    padding: 0 15px;
+    font-size: 40px;
+    font-weight: lighter;
+    border-right: 3px solid black;
+}
+
+/* Header/Navigation Style */
+
+header {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 32px;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+
+}
+
+/* Main Content Style */
+.flex-row {
+    padding: 30px;
+    display: flex;
+}
+
+.content {
+    margin: 15px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* Main Content Style End */
+
+
+/* Hero Style */
+.hero {
+    background-image: url('./images/guitar.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 55px;
+    color: white;
+    font-weight: bolder;
+}
+/* End Hero Style */
+
+/* About Me Style */
+
+.about-me {
+    background-color: silver;
+}
+
+.work-block {
+    padding: 20px;
+    width: 50%;
+    border: 3px solid black;
+}
+
+/* End About Me Style */
+
+/* Work Style */
+
+.large-block {
+    margin: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 100%;
+    text-decoration: none;
+    background-image: url(./images/music.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+
+.large-block a {
+    text-decoration: none;
+    color: white;
+}
+
+.work-block {
+    margin: 10px;
+    height: 250px;
+    width: 45%;
+}
+
+.work-block a {
+    text-decoration: none;
+}
+.run-buddy {
+    color: #fce138;
+    background-image: url('./images/run-buddy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.run-buddy a {
+    color: #fce138;
+}
+
+.robot-warriors {
+    background-image: url("./images/robot-warriors.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.robot-warriors a {
+    color: black;
+}
+/* Work Style End */
+
+/* Contact Me Style */
+.contact {
+    background-color: silver;
+}
+
+.contact p {
+    margin: 0 25px;
+}
+/* Contact Me Style End */ 
+
+/* MQ SMALL DESKTOP */
+@media screen and (max-width: 980px) {
+    
+    header {
+       justify-content: center;
+    }
+
+    header h2 {
+        padding: 20px 0;
+    }
+
+    .flex-row {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    h2 {
+        font-size: 35px;
+        width: 100%;
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+
+/* MQ TABLET */
+@media screen and (max-width: 768px) {
+
+    .work-block {
+        width: 100%;
+        justify-content: center;
+    }
+}
+/* MQ  MOBILE PHONES */
+@media screen and (max-width: 575px) {
+
+    .contact p {
+        width: 100;
+        justify-content: center;
+    }
+}
