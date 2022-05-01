@@ -25,7 +25,6 @@ h2 {
 }
 
 /* Header/Navigation Style */
-
 header {
     padding: 10px 50px;
     display: flex;
@@ -61,6 +60,7 @@ header nav ul li a {
     padding: 10px 30px;
 
 }
+/* Header/Navigation Style End */
 
 /* Main Content Style */
 .flex-row {
@@ -86,20 +86,16 @@ header nav ul li a {
     background-size: cover;
     width: 100%;
     height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    font-size: 55px;
-    color: white;
-    font-weight: bolder;
 }
 /* End Hero Style */
 
 /* About Me Style */
-
 .about-me {
     background-color: silver;
+}
+
+.about-me img {
+    margin-top: 15px;
 }
 
 .work-block {
@@ -107,11 +103,9 @@ header nav ul li a {
     width: 50%;
     border: 3px solid black;
 }
-
 /* End About Me Style */
 
 /* Work Style */
-
 .large-block {
     margin: 10px;
     padding: 20px;
@@ -122,9 +116,6 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     border: 3px solid black;
-}
-
-.large-block a {
     text-decoration: none;
     color: white;
 }
@@ -133,11 +124,9 @@ header nav ul li a {
     margin: 10px;
     height: 250px;
     width: 45%;
-}
-
-.work-block a {
     text-decoration: none;
 }
+
 .run-buddy {
     color: #fce138;
     background-image: url('./images/run-buddy.jpg');
@@ -145,28 +134,27 @@ header nav ul li a {
     background-position: center;
 }
 
-.run-buddy a {
-    color: #fce138;
-}
-
 .robot-warriors {
     background-image: url("./images/robot-warriors.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.robot-warriors a {
     color: black;
 }
 /* Work Style End */
 
 /* Contact Me Style */
 .contact {
-    background-color: silver;
+    color: white;
+    background-color: rgb(81, 81, 81);
 }
 
 .contact p {
     margin: 0 25px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
 }
 /* Contact Me Style End */ 
 
@@ -183,6 +171,7 @@ header nav ul li a {
     }
 
     .about-me h2 {
+        padding-bottom: 10px;
         display: flex;
         flex-direction: column-reverse;
        align-items: center;
@@ -191,7 +180,7 @@ header nav ul li a {
     .about-me h2 img {
         width: 200px;
         height: 200px;
-        margin-bottom: 20px;
+        margin: 0 0 10px 0;
     }
 
     .flex-row {
@@ -211,6 +200,13 @@ header nav ul li a {
     .content {
         width: 100%;
     }
+    .about-me {
+        text-align: left;
+    }
+
+    .resume {
+        text-align: left;
+    }
 }
 
 /* MQ TABLET */
@@ -229,6 +225,7 @@ header nav ul li a {
         justify-content: center;
     }
 }
+
 /* MQ  MOBILE PHONES */
 @media screen and (max-width: 575px) {
 
