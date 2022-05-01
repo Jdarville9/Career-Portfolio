@@ -175,10 +175,23 @@ header nav ul li a {
     
     header {
        justify-content: center;
+       position: relative;
     }
 
     header h2 {
         padding: 20px 0;
+    }
+
+    .about-me h2 {
+        display: flex;
+        flex-direction: column-reverse;
+       align-items: center;
+    }
+
+    .about-me h2 img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
     }
 
     .flex-row {
@@ -203,6 +216,14 @@ header nav ul li a {
 /* MQ TABLET */
 @media screen and (max-width: 768px) {
 
+    .content {
+        justify-content: center;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
     .work-block {
         width: 100%;
         justify-content: center;
@@ -211,8 +232,11 @@ header nav ul li a {
 /* MQ  MOBILE PHONES */
 @media screen and (max-width: 575px) {
 
-    .contact p {
-        width: 100;
-        justify-content: center;
+    .content {
+        flex-direction: column;
+    }
+
+    .content p {
+        margin: 10px;
     }
 }
