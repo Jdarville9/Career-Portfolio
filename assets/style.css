@@ -200,6 +200,10 @@ header nav ul li a {
     .resume {
         text-align: left;
     }
+
+    .resume h2 {
+        text-align: center;
+    }
 }
 
 /* MQ TABLET */
