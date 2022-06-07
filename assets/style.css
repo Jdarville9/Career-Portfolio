@@ -106,12 +106,21 @@ header nav ul li a {
     height: 250px;
     width: 100%;
     text-decoration: none;
-    background-image: url(./images/music.jpg);
-    background-size: cover;
-    background-position: center;
     border: 3px solid black;
     text-decoration: none;
     color: white;
+}
+
+.music {
+    background-image: url(./images/music.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-zip {
+    background-image: url(./images/concertImg1bw\ copy.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .work-block {
