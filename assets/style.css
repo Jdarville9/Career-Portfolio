@@ -1,245 +1,245 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    color: none;
-    font-family: Arial, Helvetica, sans-serif;
+  color: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    width: 20%;
-    margin: 0 10px;
-    padding: 0 15px;
-    font-size: 40px;
-    font-weight: lighter;
-    border-right: 3px solid black;
+  width: 20%;
+  margin: 0 10px;
+  padding: 0 15px;
+  font-size: 40px;
+  font-weight: lighter;
+  border-right: 3px solid black;
 }
 
 /* Header/Navigation Style */
 header {
-    padding: 10px 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: white;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 32px;
-    color: black;
+  font-weight: bold;
+  margin: 0;
+  font-size: 32px;
+  color: black;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
 }
 
 header a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 header nav ul li a {
-    padding: 10px 30px;
-
+  padding: 10px 30px;
 }
 /* Header/Navigation Style End */
 
 /* Main Content Style */
 .flex-row {
-    padding: 30px;
-    display: flex;
+  padding: 30px;
+  display: flex;
 }
 
 .content {
-    margin: 15px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-
+  margin: 15px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Main Content Style End */
 
-
 /* Hero Style */
 .hero {
-    background-image: url('./images/guitar.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 300px;
+  background-image: url("./images/guitar.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
 }
 /* End Hero Style */
 
 /* About Me Style */
 .about-me {
-    background-color: silver;
+  background-color: silver;
 }
 
 .about-me img {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .work-block {
-    padding: 20px;
-    width: 50%;
-    border: 3px solid black;
+  padding: 20px;
+  width: 50%;
+  border: 3px solid black;
 }
 /* End About Me Style */
 
 /* Work Style */
 .large-block {
-    margin: 10px;
-    padding: 20px;
-    height: 250px;
-    width: 100%;
-    text-decoration: none;
-    border: 3px solid black;
-    text-decoration: none;
-    color: white;
+  margin: 10px;
+  padding: 20px;
+  height: 250px;
+  width: 100%;
+  text-decoration: none;
+  border: 3px solid black;
+  text-decoration: none;
+  color: white;
 }
 
 .music {
-    background-image: url(./images/music.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(./images/music.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .fun-zip {
-    background-image: url(./images/concertImg1bw\ copy.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(./images/concertImg1bw\ copy.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.three-joes {
+  background-image: url(./images/three-joes.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .work-block {
-    margin: 10px;
-    height: 250px;
-    width: 47%;
-    text-decoration: none;
+  margin: 10px;
+  height: 250px;
+  width: 47%;
+  text-decoration: none;
 }
 
 .run-buddy {
-    color: #fce138;
-    background-image: url('./images/run-buddy.jpg');
-    background-size: cover;
-    background-position: center;
+  color: #fce138;
+  background-image: url("./images/run-buddy.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .robot-warriors {
-    background-image: url("./images/robot-warriors.jpg");
-    background-size: cover;
-    background-position: center;
-    color: black;
+  background-image: url("./images/robot-warriors.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
 }
 /* Work Style End */
 
 /* Contact Me Style */
 .contact {
-    color: white;
-    background-color: rgb(81, 81, 81);
+  color: white;
+  background-color: rgb(81, 81, 81);
 }
 
 .contact p {
-    margin: 0 25px;
+  margin: 0 25px;
 }
 
 .contact a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-/* Contact Me Style End */ 
+/* Contact Me Style End */
 
 /* MQ SMALL DESKTOP */
 @media screen and (max-width: 980px) {
-    
-    header {
-       justify-content: center;
-       position: relative;
-    }
+  header {
+    justify-content: center;
+    position: relative;
+  }
 
-    header h2 {
-        padding: 20px 0;
-    }
+  header h2 {
+    padding: 20px 0;
+  }
 
-    .about-me h2 {
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: column-reverse;
-       align-items: center;
-    }
+  .about-me h2 {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-    .about-me h2 img {
-        width: 200px;
-        height: 200px;
-        margin: 0 0 10px 0;
-    }
+  .about-me h2 img {
+    width: 200px;
+    height: 200px;
+    margin: 0 0 10px 0;
+  }
 
-    .flex-row {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .flex-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    h2 {
-        font-size: 35px;
-        width: 100%;
-        border-right: 0;
-        border-bottom: 2px solid black;
-    }
+  h2 {
+    font-size: 35px;
+    width: 100%;
+    border-right: 0;
+    border-bottom: 2px solid black;
+  }
 
-    .content {
-        width: 100%;
-    }
-    .about-me {
-        text-align: left;
-    }
+  .content {
+    width: 100%;
+  }
+  .about-me {
+    text-align: left;
+  }
 
-    .resume {
-        text-align: left;
-    }
+  .resume {
+    text-align: left;
+  }
 
-    .resume h2 {
-        text-align: center;
-    }
+  .resume h2 {
+    text-align: center;
+  }
 }
 
 /* MQ TABLET */
 @media screen and (max-width: 768px) {
+  .content {
+    justify-content: center;
+  }
 
-    .content {
-        justify-content: center;
-    }
+  header nav ul {
+    justify-content: center;
+  }
 
-    header nav ul {
-        justify-content: center;
-    }
-
-    .work-block {
-        width: 100%;
-        justify-content: center;
-    }
+  .work-block {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* MQ  MOBILE PHONES */
 @media screen and (max-width: 575px) {
+  .content {
+    flex-direction: column;
+  }
 
-    .content {
-        flex-direction: column;
-    }
-
-    .content p {
-        margin: 10px;
-    }
+  .content p {
+    margin: 10px;
+  }
 }
