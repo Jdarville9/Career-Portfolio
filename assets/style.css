@@ -126,6 +126,13 @@ header nav ul li a {
   background-position: center;
 }
 
+.game-time {
+  background-image: url(./images/game-time.png);
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
 .work-block {
   margin: 10px;
   height: 250px;
